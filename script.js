@@ -60,7 +60,7 @@ document.getElementById('get-recommendations').addEventListener('click', () => {
 async function fetchRecommendations(preference) {
     try {
         // Make a request to the backend API with the given preference
-        const response = await fetch(`http://localhost:8888/recommendations?preference=${preference}`);
+        const response = await fetch(`http://localhost:8080/recommendations?preference=${preference}`);
         
         // If the response is not OK, throw an error
         if (!response.ok) {
