@@ -12,7 +12,7 @@
 // async function fetchRecommendations(genre, mood) {
 //     try {
 //         // Make a request to the backend API with both the genre and mood
-//         const response = await fetch(`http://localhost:8888/recommendations?genre=${genre}&mood=${mood}`);
+//         const response = await fetch(`http://localhost:8080/recommendations?genre=${genre}&mood=${mood}`);
         
 //         if (!response.ok) {
 //             throw new Error('Network response was not ok');
